@@ -1,0 +1,215 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Neo.BuildTasks/3.4.14": {
+        "type": "package",
+        "build": {
+          "build/Neo.BuildTasks.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Neo.BuildTasks.targets": {}
+        }
+      },
+      "Neo.SmartContract.Framework/3.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Neo.SmartContract.Framework.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Neo.SmartContract.Framework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Neo.BuildTasks/3.4.14": {
+      "sha512": "LJMJ1aY/kTYKp5eYByD23EienOtmyv0t1Ts6xdtYuOJ53qa+JOq4DxQsELQOh+lfjTd65rLZ4cHBBa2HBBVFvA==",
+      "type": "package",
+      "path": "neo.buildtasks/3.4.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Neo.BuildTasks.targets",
+        "buildMultiTargeting/Neo.BuildTasks.targets",
+        "neo.buildtasks.3.4.14.nupkg.sha512",
+        "neo.buildtasks.nuspec",
+        "ngdsea.png",
+        "tasks/net472/neo-build-tasks.dll",
+        "tasks/netstandard2.0/neo-build-tasks.dll"
+      ]
+    },
+    "Neo.SmartContract.Framework/3.4.0": {
+      "sha512": "MCSFo6knZFbQ9Uct/bV3WxC8OmpmxCkoVcm1p6FX+nyYYAfy/K2hZH/nQhx9VbGTl14QagiWVe7DPjKDY23vwQ==",
+      "type": "package",
+      "path": "neo.smartcontract.framework/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Neo.SmartContract.Framework.dll",
+        "neo.smartcontract.framework.3.4.0.nupkg.sha512",
+        "neo.smartcontract.framework.nuspec",
+        "src/Attributes/CallingConventionAttribute.cs",
+        "src/Attributes/ContractAttribute.cs",
+        "src/Attributes/ContractHashAttribute.cs",
+        "src/Attributes/ContractPermissionAttribute.cs",
+        "src/Attributes/ContractSourceCodeAttribute.cs",
+        "src/Attributes/ContractTrustAttribute.cs",
+        "src/Attributes/InitialValueAttribute.cs",
+        "src/Attributes/ManifestExtraAttribute.cs",
+        "src/Attributes/ModifierAttribute.cs",
+        "src/Attributes/OpCodeAttribute.cs",
+        "src/Attributes/SafeAttribute.cs",
+        "src/Attributes/SupportedStandardsAttribute.cs",
+        "src/Attributes/SyscallAttribute.cs",
+        "src/ByteString.cs",
+        "src/ContractParameterType.cs",
+        "src/ECPoint.cs",
+        "src/ExecutionEngine.cs",
+        "src/Helper.cs",
+        "src/IApiInterface.cs",
+        "src/List.cs",
+        "src/Map.cs",
+        "src/Native/AndCondition.cs",
+        "src/Native/BooleanCondition.cs",
+        "src/Native/CalledByContractCondition.cs",
+        "src/Native/CalledByGroupCondition.cs",
+        "src/Native/ContractManagement.cs",
+        "src/Native/CryptoLib.cs",
+        "src/Native/GAS.cs",
+        "src/Native/GroupCondition.cs",
+        "src/Native/Ledger.cs",
+        "src/Native/NEO.cs",
+        "src/Native/NamedCurve.cs",
+        "src/Native/NeoAccountState.cs",
+        "src/Native/NotCondition.cs",
+        "src/Native/OrCondition.cs",
+        "src/Native/Oracle.cs",
+        "src/Native/OracleResponseCode.cs",
+        "src/Native/Policy.cs",
+        "src/Native/Role.cs",
+        "src/Native/RoleManagement.cs",
+        "src/Native/ScriptHashCondition.cs",
+        "src/Native/Signer.cs",
+        "src/Native/StdLib.cs",
+        "src/Native/VMState.cs",
+        "src/Native/WitnessCondition.cs",
+        "src/Native/WitnessConditionType.cs",
+        "src/Native/WitnessRule.cs",
+        "src/Native/WitnessRuleAction.cs",
+        "src/Native/WitnessScope.cs",
+        "src/Nep11Token.cs",
+        "src/Nep11TokenState.cs",
+        "src/Nep17Token.cs",
+        "src/OpCode.cs",
+        "src/Properties/AssemblyInfo.cs",
+        "src/Services/Block.cs",
+        "src/Services/CallFlags.cs",
+        "src/Services/Contract.cs",
+        "src/Services/ContractAbi.cs",
+        "src/Services/ContractEventDescriptor.cs",
+        "src/Services/ContractGroup.cs",
+        "src/Services/ContractManifest.cs",
+        "src/Services/ContractMethodDescriptor.cs",
+        "src/Services/ContractParameterDefinition.cs",
+        "src/Services/ContractPermission.cs",
+        "src/Services/Crypto.cs",
+        "src/Services/FindOptions.cs",
+        "src/Services/Iterator.cs",
+        "src/Services/Notification.cs",
+        "src/Services/Runtime.cs",
+        "src/Services/Storage.cs",
+        "src/Services/StorageContext.cs",
+        "src/Services/StorageMap.cs",
+        "src/Services/Transaction.cs",
+        "src/Services/TriggerType.cs",
+        "src/SmartContract.cs",
+        "src/StackItemType.cs",
+        "src/TokenContract.cs",
+        "src/UInt160.cs",
+        "src/UInt256.cs",
+        "src/UncatchableException.cs"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Neo.BuildTasks >= 3.4.14",
+      "Neo.SmartContract.Framework >= 3.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Keith Stanley\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Keith Stanley\\Documents\\GitHub\\neoSmartContract\\contracts\\TokenAlice\\src\\TokenAliceContract.csproj",
+      "projectName": "TokenAliceContract",
+      "projectPath": "C:\\Users\\Keith Stanley\\Documents\\GitHub\\neoSmartContract\\contracts\\TokenAlice\\src\\TokenAliceContract.csproj",
+      "packagesPath": "C:\\Users\\Keith Stanley\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Keith Stanley\\Documents\\GitHub\\neoSmartContract\\contracts\\TokenAlice\\src\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Keith Stanley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Neo.BuildTasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.4.14, )"
+          },
+          "Neo.SmartContract.Framework": {
+            "target": "Package",
+            "version": "[3.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
