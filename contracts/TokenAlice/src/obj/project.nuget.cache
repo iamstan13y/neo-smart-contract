@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xL+ZapTdOFDvW0tZOmLear3eyW3dfysUlseatSenLtK/oVforRFpJBcq4H9xCk4GWc0LMbfEB3ydE8aDZspq1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Keith Stanley\\Documents\\GitHub\\neoSmartContract\\contracts\\TokenAlice\\src\\TokenAliceContract.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Keith Stanley\\.nuget\\packages\\neo.buildtasks\\3.4.14\\neo.buildtasks.3.4.14.nupkg.sha512",
+    "C:\\Users\\Keith Stanley\\.nuget\\packages\\neo.smartcontract.framework\\3.4.0\\neo.smartcontract.framework.3.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
