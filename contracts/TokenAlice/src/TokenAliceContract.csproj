@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <NeoContractName>$(AssemblyName)</NeoContractName>
+    <RootNamespace>TokenAlice</RootNamespace>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Neo.SmartContract.Framework" Version="3.4.0" />
+    <PackageReference Include="Neo.BuildTasks" Version="3.4.14" PrivateAssets="all" />
+  </ItemGroup>
+
+</Project>
